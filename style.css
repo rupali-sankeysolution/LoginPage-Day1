@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 70px;
+    height: 50px;
+}
+
+.header-img span{
+    /* display: block;
+    margin: 0%;
+    padding: 0%; */
+    height: 2px;
+    width: 1%;
+
+    
+
+}
+.border-line {
+    width: 100%;
+    height: 2px;
+    background-color: #efefef;
+}
+
+.spacer {
+    flex: 1;
+    margin-left: 50px;
+}
+
+.content {
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.border {
+    width: 60%;
+    border: 1px solid grey;
+    padding: 20px;
+    background-color: #f0f0f0;
+    position: relative;
+    margin: 0 auto 40px;
+    border-radius: 15px;
+}
+
+.image {
+    width: 45%;
+    position: absolute;
+    top: 5%;
+    bottom: 5%;
+    left: 5%;
+    margin-right: 10%;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+.login-info {
+    width: 50%;
+    float: right;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.login-info label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+    /* margin: 10%; */
+}
+
+.login-info input {
+    width: calc(100% - 20px);
+   /* // background-color: yellow; */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-info button {
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.options {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.options a {
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.social-logos {
+    margin-top: 20px;
+    text-align: center;
+    padding-left: 20%;
+}
+
+.social-logos img {
+    width: 30px;
+    margin: 0 10px;
+    background-color: white;
+}
+
+.forgot-remember {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction:row;
+    }
+
+.forgot input[type="checkbox"] {
+    /* margin-right: 5px; */
+    /* height: 15px; */
+}
+
+.forgot-remember a {
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+}
+.additional {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-left {
+    display: flex;
+    align-items: center;
+     justify-content: space-around;
+}
+.add-left label{
+    white-space: nowrap;
+}
+
+.add-left input[type="checkbox"] {
+    margin-right: 5px;
+    height: 30px;
+}
+
+.add-right a {
+    color:blue;
+    text-decoration: none;
+    margin-right: 1px;  
+}
+
+.add-right{
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.or {
+    text-align: center;
+    padding-left: 20%;
+    padding-top: 10px;
+}
+
+#msg {
+    padding: 10px;
+    padding-left: 20%;
+}
+
+.header-right1-img img{
+margin-right: 10px;
+}
+
+.header-right1-img img,
+.header-right2-img img {
+    width: 20px; /* Adjust the width to decrease the size */
+    height: auto; /* Maintain aspect ratio */
+    margin: right 5px;;
+    margin-top: 20px;
+}
+
+.header-right2-img img {
+   
+    margin-right: 15px;
+ 
+}
+
+.login-msg {
+    padding-left: 20%;
+}
+
+.form {
+    padding-left: 20%;
+}
+
+.social-logos {
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+.facebook {
+    margin-left: 40px;
+}
+
+.apple {
+    margin-right: 50px;
+  
+}
+
+.google {
+    margin-left: 2px;
+}
+
+.register-msg {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 15%;
+}
+
+.register-now {
+    padding-left: 20%;
+}
+
+.header-right1-img{
+    height: 100px;
+    min-height: 20%;    
+}
+
+
+@media screen and (max-width: 768px) {
+    .border {
+        flex-direction: column;
+        width: 100%;
+       
+    }
+
+    .image {
+        width: 100%;
+       
+        position: static;
+       
+        margin-bottom: 20px;
+       
+    }
+
+    .login-info {
+        width: 120%;
+    }
+}
+
+.logo{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    
+}
