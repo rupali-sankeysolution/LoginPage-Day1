@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page</title>
+    <script src="https://kit.fontawesome.com/e357d3e4bb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="container">
+
+        
+        <header>
+            <div class="logo">
+                <img src="logo.jpg" alt="Logo">
+            
+                <div class="header-img">
+                    <span class="header-right1-img"><img src="icons8-india-48.png" alt=""></span>
+                    
+                    <span class="header-right1-img"><img src="icons8-question-mark-50.png" alt=""></span> 
+                </div>
+            </div>
+            <div class="border-line"></div>
+        </header>
+        <div class="content">
+            <div class="border">
+                <div class="image-section">
+                    <div class="image">
+                        <img src="icon1.jpg" alt="Image">
+                    </div>
+                </div>
+                <div class="login-section">
+                    <div class="login-info">
+                        <div>
+                            <h3 class="login-msg">Login</h3>
+                        </div>
+                        <p id="msg">Login to access your account</p>
+                        <form id="loginForm" class="form">
+                            <div id="error" style="color: red; margin-bottom: 10px;"></div>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="sankeysolutions@gmail.com">
+                            <label for="password">Password:</label>
+                            <input type="password" id="password" name="password" placeholder="**********">
+                            <!-- <div class="forgot-remember">
+                                <div class="forgot">
+                                    <input type="checkbox">
+                                    <label> Remember Me</label>
+                                </div>
+                                <div class="forgetPass">
+                                    <a href="#">Forgot Password?</a>
+                                </div>
+                            </div> -->
+                            <div class="additional">
+                                <div class="add-left">
+                                    <input type="checkbox" name="remember" id="checkbox">
+                                    <label for="remember-me">Remember Me</label>
+                                </div>
+                                <div class="add-right">
+                                    <a href="http://">Forgot Password?</a>
+                                </div>
+                            </div>
+                            <button type="submit">Login</button>
+                        </form>
+                        <p class="or">Or</p>
+                        <div class="social-logos">
+                            <a href="https://www.facebook.com" class="facebook">
+                                <img src="facebook.png">
+                            </a>
+                            <a href="https://www.google.com" class="google">
+                                <img src="search.png">
+                            </a>
+                            <a href="https://www.apple.com" class="apple">
+                                <img src="apple.png">
+                            </a>
+                        </div>
+                        <p class="register-msg">Don't have an account? <a href="#">Register Now</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
